@@ -4,6 +4,7 @@ metadata:
   labels:
     app: modeldb
   name: modeldb-mysql-backend
+  annotations: sidecar.istio.io/inject: "false"
 spec:
   selector:
     matchLabels:
