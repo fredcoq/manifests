@@ -1,5 +1,3 @@
-namePrefix: modeldb-
-
 resources:
 - artifact-store-deployment.yaml
 - artifact-store-service.yaml
